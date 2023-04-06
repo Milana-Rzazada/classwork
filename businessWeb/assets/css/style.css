@@ -1,0 +1,353 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  max-width: 1320px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+header {
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+}
+header nav {
+  background: rgba(0, 0, 0, 0.5);
+}
+header nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav .container .mobile_navbar {
+  display: none;
+}
+header nav .container .ebusiness__navbrand h2 {
+  font-family: "Raleway", sans-serif;
+  font-size: 40px;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+header nav .container .ebusiness__navbrand span {
+  color: #3EC1D5;
+}
+header nav .container .eBusiness__navcategory ul {
+  display: flex;
+  justify-content: space-around;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+header nav .container .eBusiness__navcategory ul li a {
+  float: none;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+header nav .container .eBusiness__navcategory ul li a:hover {
+  color: #3398A9;
+}
+header nav .container .eBusiness__navcategory ul .dropdown {
+  float: left;
+  overflow: hidden;
+}
+header nav .container .eBusiness__navcategory ul .dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+header nav .container .eBusiness__navcategory ul .navbar a:hover,
+header nav .container .eBusiness__navcategory ul .dropdown:hover .dropbtn {
+  color: #3398A9;
+}
+header nav .container .eBusiness__navcategory ul .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+header nav .container .eBusiness__navcategory ul .dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+header nav .container .eBusiness__navcategory ul .dropdown-content a:hover {
+  background-color: #ddd;
+}
+header nav .container .eBusiness__navcategory ul .dropdown:hover .dropdown-content {
+  display: block;
+}
+
+@media only screen and (max-width: 768px) {
+  header {
+    width: 100%;
+    position: fixed;
+  }
+  header nav {
+    background: rgba(0, 0, 0, 0.5);
+  }
+  header nav .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  header nav .container .mobile_nav {
+    display: block;
+  }
+  header nav .container .ebusiness__navbrand {
+    font-family: "Raleway", sans-serif;
+    font-size: 36px;
+    color: #FFFFFF;
+  }
+  header nav .container .ebusiness__navbrand span {
+    color: #3EC1D5;
+  }
+  header nav .container .eBusiness__navcategory {
+    display: none;
+  }
+  header nav .container .mobile_navbar i {
+    font-size: 36px;
+  }
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, sans-serif;
+  margin: 0;
+}
+
+.mySlides {
+  display: none;
+}
+
+#img1,
+#img2,
+#img3 {
+  vertical-align: middle;
+  opacity: 0.5;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  background-image: linear-gradient(black, grey);
+  width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 30%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.text p {
+  font-size: 24px;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+}
+.text h1 {
+  font-size: 40px;
+  text-align: center;
+}
+.text button {
+  background-color: #3ec1d5;
+  color: white;
+  border-radius: 50px;
+  font-size: 16px;
+  width: 160px;
+  height: 40px;
+  border: none;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev,
+  .next,
+  .text {
+    font-size: 11px;
+  }
+}
+#about_ebusiness__section {
+  background-color: #f9f9f9;
+}
+#about_ebusiness__section .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#about_ebusiness__section .container .about_ebusiness__section__header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#about_ebusiness__section .container .about_ebusiness__section__header h1 {
+  font-size: 50px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+#about_ebusiness__section .container .about_ebusiness__section__header hr {
+  border: 2px solid black;
+  width: 150px;
+}
+#about_ebusiness__section .container .about_ebusiness__section__content {
+  margin-top: 50px;
+  display: flex;
+  align-items: space-between;
+  justify-content: space-between;
+}
+#about_ebusiness__section .container .about_ebusiness__section__content .about_ebusiness__section__image {
+  width: 55%;
+}
+#about_ebusiness__section .container .about_ebusiness__section__content .about_ebusiness__section__image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+#about_ebusiness__section .container .about_ebusiness__section__content .about_ebusiness__section__project {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 40%;
+}
+#about_ebusiness__section .container .about_ebusiness__section__content .about_ebusiness__section__project h3 {
+  font-size: 25px;
+  font-family: "Raleway";
+}
+#about_ebusiness__section .container .about_ebusiness__section__content .about_ebusiness__section__project p {
+  font-size: 18px;
+}
+#about_ebusiness__section .container .about_ebusiness__section__content .about_ebusiness__section__project ul li {
+  font-size: 18px;
+  margin: 0 0 15px;
+}
+#about_ebusiness__section .container .about_ebusiness__section__content .about_ebusiness__section__project ul li i {
+  font-size: 18px;
+  color: #3ec1d5;
+}
+
+@media only screen and (max-width: 576px) {
+  #about_ebusiness__section .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  #about_ebusiness__section .container .about_ebusiness__section__content {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+  }
+}

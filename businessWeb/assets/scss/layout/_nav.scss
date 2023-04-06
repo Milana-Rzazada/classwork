@@ -1,0 +1,159 @@
+header {
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    nav {
+        background: rgba(0, 0, 0, 0.5);
+        .container {
+           
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .mobile_navbar {
+                
+                display: none;
+                
+            }
+            .ebusiness__navbrand {
+                h2{
+                font-family: 'Raleway', sans-serif;
+                font-size: 40px;
+                color: #FFFFFF;
+                font-weight: bold;}
+
+
+                span {
+                    color: #3EC1D5;
+                }
+            }
+
+            .eBusiness__navcategory {
+                ul {
+                    display: flex;
+                    justify-content: space-around;
+                    font-size: 16px;
+                    border: none;
+                    outline: none;
+                    color: white;
+                    padding: 14px 16px;
+                    background-color: inherit;
+                    font-family: inherit;
+                    margin: 0;
+
+                    li {
+                        a {
+                            float: none;
+                            color: white;
+                            padding: 12px 16px;
+                            text-decoration: none;
+                            display: block;
+                            text-align: left;
+                        }
+
+                        a:hover {
+                            color: #3398A9;
+
+                        }
+                    }
+
+                    .dropdown {
+                        float: left;
+                        overflow: hidden;
+                    }
+
+                    .dropdown .dropbtn {
+                        font-size: 16px;
+                        border: none;
+                        outline: none;
+                        color: white;
+                        padding: 14px 16px;
+                        background-color: inherit;
+                        font-family: inherit;
+                        margin: 0;
+                    }
+
+                    .navbar a:hover,
+                    .dropdown:hover .dropbtn {
+                        color: #3398A9;
+                    }
+
+                    .dropdown-content {
+                        display: none;
+                        position: absolute;
+                        background-color: #f9f9f9;
+                        min-width: 160px;
+                        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+                        z-index: 1;
+                    }
+
+                    .dropdown-content a {
+                        float: none;
+                        color: black;
+                        padding: 12px 16px;
+                        text-decoration: none;
+                        display: block;
+                        text-align: left;
+                    }
+
+                    .dropdown-content a:hover {
+                        background-color: #ddd;
+                    }
+
+                    .dropdown:hover .dropdown-content {
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    header {
+        width: 100%;
+        position: fixed;
+        nav {
+            background: rgba(0, 0, 0, 0.5);
+              
+            .container {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                color: #FFFFFF;
+                width: 100%;
+                .mobile_nav {
+                    display: block;
+                }
+    
+                display: flex;
+                justify-content: space-between;
+    
+                .ebusiness__navbrand {
+                    font-family: 'Raleway', sans-serif;
+                    font-size: 36px;
+                    color: #FFFFFF;
+    
+                    span {
+                        color: #3EC1D5;
+                    }
+                }
+    
+                .eBusiness__navcategory {
+                    display: none;}
+                    .mobile_navbar{
+
+                        
+                        i{
+                        font-size: 36px;
+                        
+                    }
+                
+
+                 
+                }
+            }
+        }
+    }
+
+}

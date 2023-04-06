@@ -1,0 +1,241 @@
+* {
+    box-sizing: border-box
+}
+
+body {
+    font-family: Verdana, sans-serif;
+    margin: 0
+}
+
+.mySlides {
+    display: none
+}
+
+#img1,
+#img2,
+#img3 {
+    vertical-align: middle;
+    opacity: 0.5;
+    
+}
+
+/* Slideshow container */
+.slideshow-container {
+        background-image: linear-gradient(black , grey);
+      
+    width: 100%;
+    position: relative;
+    margin: auto;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 30%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+
+    p {
+        font-size: 24px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: bold;
+    }
+
+    h1 {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    button {
+        background-color: #3ec1d5;
+        color: white;
+        border-radius: 50px;
+        font-size: 16px;
+        width: 160px;
+        height: 40px;
+        border: none;
+    }
+}
+
+
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+
+    .prev,
+    .next,
+    .text {
+        font-size: 11px
+    }
+}
+
+
+
+
+
+
+#about_ebusiness__section {
+    background-color: #f9f9f9;
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .about_ebusiness__section__header {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            h1 {
+                font-size: 50px;
+                font-weight: bold;
+                margin: 20px 0;
+                         
+            }
+          hr{
+            border: 2px solid black;
+            width: 150px;
+            
+  }
+        }
+
+        .about_ebusiness__section__content {
+            margin-top: 50px;
+            display: flex;
+            align-items: space-between;
+            justify-content: space-between;
+
+            .about_ebusiness__section__image {
+                width: 55%;
+
+                img {
+                    width: 100%;
+                    height: auto;
+                    object-fit: cover;
+
+                }
+            }
+
+            .about_ebusiness__section__project {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                width: 40%;
+
+                h3 {
+                    font-size: 25px;
+                    font-family: "Raleway";
+                }
+
+                p {
+                    font-size: 18px;
+                }
+
+                ul {
+                    li{
+                        font-size: 18px;
+                        margin: 0 0 15px;
+                        i{
+                            font-size: 18px;
+                        color: #3ec1d5;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    #about_ebusiness__section {
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+    
+            
+    
+            .about_ebusiness__section__content {
+                margin-top: 50px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-between;
+                gap: 20px;
+    
+                
+            }
+        }
+    }
+}

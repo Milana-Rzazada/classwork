@@ -1,17 +1,15 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: sans-serif;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
-a {
 
+a{
     text-decoration: none;
-    
-    }
-    
-    li {
-    
+    color: inherit;
+}
+
+li{
     list-style: none;
-    
-    }
+}
