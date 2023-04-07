@@ -1,0 +1,205 @@
+
+
+/* .content{
+    border: 2px solid brown;
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    animation-name: content;
+    transition: 1s;
+    animation-duration: 500ms;
+  animation-iteration-count: infinite;
+  position: relative;
+  top: 10px;
+  
+
+}
+.content1{
+    border: 2px solid blue;
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    animation-name: content1;
+    transition: 2s;
+    animation-duration: 3s;
+  animation-iteration-count: infinite;
+  position: relative;
+  top: 20px;
+  animation-direction: alternate;
+  animation-fill-mode: backwards; */
+  
+
+
+/* @keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:400px; top:200px;}
+    100% {background-color:red; left:400px; top:400px;} */
+   
+/* section:hover .content{
+        width: 400px;
+    }
+section:hover .content1{
+        width: 400px;
+        
+    }
+     .content{
+        border: 2px solid brown;
+        width: 200px;
+        height: 200px;
+        background-color: brown;
+      position: relative;
+      top: 10px;
+      transition: 3s;
+          
+    }
+    .content1{
+        border: 2px solid blue;
+        width: 200px;
+        height: 200px;
+        background-color: blue;
+      position: relative;
+      transition: 5s;
+      top: 20px;} */
+      
+
+/* section:hover .box1{
+        position: relative;
+        
+        transform: rotate(90deg);
+        transform-origin: 0% 0%;
+    }
+section:hover .box2{
+        position: relative;
+      
+        transform: rotate(-90deg);
+        transform-origin: 100% 0%;}
+section:hover .box3{
+        position: relative;
+       
+        transform: rotate(-90deg);
+        transform-origin: 0% 100%;}
+section:hover .box4{
+        position: relative;
+        
+        transform: rotate(90deg);
+        transform-origin: 100% 100%;}
+section{
+    position: absolute;
+    top: 200px;
+    padding-left: 40%;
+   
+}
+.flex1{
+    display: flex;
+}
+.flex2{
+    display: flex;
+}
+.box1{
+    border: 2px solid brown;
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    transition: 2s;
+}
+.box2{
+    border: 2px solid yellow;
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    transition: 2s;
+}
+.box3{
+    border: 2px solid blue;
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    transition: 2s;
+}
+.box4{
+    border: 2px solid green;
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    transition: 2s;
+}
+
+div.Hi h1{
+    text-align: center;
+    position: relative;
+    top: 350px;
+} */
+
+/* body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.content{
+    height: 100vh;
+    background-color: yellow;
+    border: 2px solid red;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+h1{
+    font-size: 50px;
+    position: relative;
+    top: 60px;
+}
+.free h5{
+    font-style: italic;
+    font-size: 30px;
+}
+.button1 {
+    background-color: #adadad; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;} */
+
+  body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+  }
+  a{
+    text-decoration: none;
+    color: white;
+    
+  }
+
+  h2{
+    color: white;
+  }
+
+ .navbar{
+    width: 100%;
+    display: flex;
+    background-color: black;
+    border: 2px solid black;
+    justify-content: space-between;
+ } 
+
+
+
+ 
+ 
+
+
+
+ 
+    
+
+    
