@@ -1,0 +1,24 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+}
+
+.box {
+  border: 1px solid black;
+}
+
+.newcard {
+  border: 1px solid red;
+}
+
+.card2 {
+  border: 1px solid brown;
+  background-color: black;
+  color: white;
+}

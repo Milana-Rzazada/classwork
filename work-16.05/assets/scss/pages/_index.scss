@@ -1,0 +1,55 @@
+//section one start
+
+section.one {
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: brown;
+        color: white;
+    }
+
+}
+//section one end
+
+
+//section startbootstrap start
+section.startbootstrapsection {
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 500px;
+        gap: 50px;
+        background-color: red;
+        color: white;
+
+        h1 {
+            font-size: 56px;
+        }
+
+        p {
+            font-size: 24px;
+            text-align: center;
+        }
+    }
+
+}
+
+//section startbootstrap end
+
+
+//section three start
+section.three {
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: yellow;
+        color: white;
+    }
+
+}
+//section three end
+

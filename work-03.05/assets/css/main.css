@@ -1,0 +1,19 @@
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+section table, section td, section th {
+  border: 2px solid black;
+  text-align: center;
+}
+section table th, section td th, section th th {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+img {
+  width: 60px;
+  height: 30px;
+}

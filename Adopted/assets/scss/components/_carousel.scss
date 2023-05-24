@@ -1,0 +1,39 @@
+#carousel-site{
+    #carouselExampleCaptions{
+        .carousel-inner{
+            height: 100vh;
+            .carousel-item{
+                
+                .carousel-caption{
+                      right: 60%;
+                      bottom: 50%;
+                      text-align: justify;
+                      width: 500px;
+                      
+                      .girl{
+                        color: black;
+                        h4{
+                            font-family: "Sacramento", cursive;
+                          }
+                          h1{
+                          
+                            font-weight: bold;
+                            font-size: 44px;
+                          }
+                      }
+                      .boy{
+                        h4{
+                            font-family: "Sacramento", cursive;;
+                          }
+                          h1{
+                          
+                            font-weight: bold;
+                            font-size: 44px;
+                          }
+                      }
+                     
+                }
+            }
+        }
+    }
+}

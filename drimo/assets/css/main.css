@@ -1,0 +1,353 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+#startednow .container .start .text button {
+  width: 200px;
+  height: 48px;
+  border: none;
+  background-color: orange;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin: auto;
+}
+
+nav .container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+}
+nav .container .drimo {
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  align-items: center;
+}
+nav .container .drimo .icon {
+  display: none;
+}
+nav .container ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  overflow: hidden;
+  transition: 300ms;
+  font-size: 20px;
+  color: bisque;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  height: auto;
+}
+
+@media only screen and (max-width: 768px) {
+  nav .container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  nav .container ul {
+    display: none;
+  }
+  nav .container .drimo .icon {
+    display: block;
+  }
+  nav .container .list {
+    display: block;
+  }
+}
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin: auto;
+}
+
+#startednow {
+  background-image: url(../images/server-banner.jpg.webp);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 700px;
+}
+#startednow .container {
+  width: 100%;
+}
+#startednow .container .box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+#startednow .container .box .box1 {
+  background-color: red;
+  width: 300px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 30px;
+}
+#startednow .container .box .triangle-down {
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-top: 50px solid red;
+  position: absolute;
+  top: 120%;
+  right: 50%;
+}
+#startednow .container .start {
+  display: flex;
+}
+#startednow .container .start .text {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+}
+#startednow .container .start .text .list4 {
+  display: flex;
+  gap: 20px;
+}
+#startednow .container .start .text .list4 .list2 ul li {
+  display: flex;
+}
+#startednow .container .start .text .list4 .list2 ul li a {
+  color: white;
+}
+#startednow .container .start .text .list4 .list2 ul li a i {
+  width: 20px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  border: 1px solid white;
+  font-size: 15px;
+  color: white;
+  text-align: center;
+}
+#startednow .container .start .text h1 {
+  color: white;
+  font-size: 56px;
+}
+#startednow .container .start .text h2 {
+  color: white;
+  font-size: 30px;
+}
+#startednow .container .start .text h5 {
+  color: white;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  #startednow .container {
+    width: 100%;
+  }
+  #startednow .container .start {
+    display: flex;
+    flex-direction: column;
+  }
+  #startednow .container .start .text {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    position: relative;
+    top: 30px;
+  }
+  #startednow .container .start .text .list4 {
+    display: flex;
+    flex-direction: column;
+  }
+  #startednow .container .start .text .list2 {
+    display: flex;
+    flex-direction: column;
+  }
+}
+#services .container {
+  width: 100%;
+}
+#services .container .ourservice .servicetext {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+#services .container .ourservice .servicetext h1 {
+  font-size: 56px;
+}
+#services .container .ourservice .servicetext hr {
+  width: 100px;
+}
+#services .container .ourservice .servicetext p {
+  text-align: center;
+  max-width: 800px;
+}
+#services .container .ourservice .servicepost {
+  position: relative;
+  top: 30px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 30px;
+}
+#services .container .ourservice .servicepost .icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+#services .container .ourservice .servicepost .icons p {
+  font-size: 22px;
+}
+#services .container .ourservice .servicepost .icons span {
+  font-size: 18px;
+  color: rgb(141, 138, 138);
+}
+
+.image {
+  max-width: 60px;
+  width: 100%;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+}
+
+@media only screen and (max-width: 768px) {
+  #services .container {
+    width: 100%;
+  }
+  #services .container .ourservice .servicetext h1 {
+    font-size: 40px;
+  }
+  #services .container .ourservice .servicepost {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+}
+#happyclient {
+  background-color: #7db9e8;
+  position: relative;
+  top: 50px;
+  color: white;
+}
+#happyclient .container {
+  width: 100%;
+}
+#happyclient .container .client {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+#happyclient .container .client h1 {
+  font-size: 56px;
+}
+#happyclient .container .client hr {
+  width: 100px;
+}
+#happyclient .container .client p {
+  font-size: 24px;
+}
+#happyclient .container .emoji {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  height: 300px;
+  gap: 70px;
+}
+#happyclient .container .emoji .emojione {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+#happyclient .container .emoji .emojione i {
+  width: 90px;
+  aspect-ratio: 1/1;
+  border: 1px solid white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+}
+#happyclient .container .emoji .emojione .text {
+  display: flex;
+  flex-direction: column;
+}
+#happyclient .container .emoji .emojione .text h3 {
+  font-size: 30px;
+}
+
+#latestnews {
+  position: relative;
+  top: 70px;
+}
+#latestnews .container {
+  width: 100%;
+}
+#latestnews .container .latest {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+#latestnews .container .latest h1 {
+  font-size: 56px;
+}
+#latestnews .container .latest hr {
+  width: 100px;
+}
+#latestnews .container .latest p {
+  text-align: center;
+  max-width: 700px;
+  width: 100%;
+}
+#latestnews .container .cardnews {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 80px;
+}
+#latestnews .container .cardnews .news {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  border: 1px solid black;
+  max-width: 362px;
+  width: 100%;
+}
+#latestnews .container .cardnews .news p {
+  font-size: 24px;
+  color: black;
+}
+#latestnews .container .cardnews .news span {
+  padding: 10px;
+  font-size: 20px;
+}

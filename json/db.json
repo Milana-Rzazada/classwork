@@ -1,0 +1,155 @@
+{
+  "suallar": [
+    {
+      "id": 3,
+      "sual": "1) Inside which HTML element do we put the JavaScript?",
+      "VariantA": "script",
+      "VariantB": "scripting",
+      "VariantC": "javascript",
+      "VariantD": "js",
+      "VariantE": "java",
+      "cavab": "A) script"
+    },
+    {
+      "sual": "2) Where is the correct place to insert a JavaScript?",
+      "VariantA": "The <body> section  ",
+      "VariantB": "Both the <head> section and the <body> section are correct  ",
+      "VariantC": "The <head> section",
+      "VariantD": "document.getElement(\"p\").innerHTML = \"Hello World!\";",
+      "VariantE": "document.getElement(\"p\").innerHTML = Hello World",
+      "cavab": "Both the <head> section and the <body> section are correct  ",
+      "id": 4
+    },
+    {
+      "sual": "3) What is the correct syntax for referring to an external script called \"xxx.js\"?",
+      "VariantA": "script src=\"xxx.js\"  ",
+      "VariantB": "script href=\"xxx.js\" ",
+      "VariantC": "script name=\"xxx.js\">",
+      "VariantD": "script body=\"xxx.js\"",
+      "VariantE": "script head=\"xxx.js\"",
+      "cavab": "script src=\"xxx.js\"  ",
+      "id": 5
+    },
+    {
+      "sual": "4) The external JavaScript file must contain the <script> tag.",
+      "VariantA": "True",
+      "VariantB": "NaN",
+      "VariantC": "I don't know",
+      "VariantD": "False",
+      "VariantE": "all variants",
+      "cavab": "False",
+      "id": 6
+    },
+    {
+      "sual": "5) How do you write \"Hello World\" in an alert box?",
+      "VariantA": "alert(\"Hello World\");  ",
+      "VariantB": "alertBox(\"Hello World\");",
+      "VariantC": "msgBox(\"Hello World\");",
+      "VariantD": "msg(\"Hello World\");",
+      "VariantE": "msg(Hello World)",
+      "cavab": "alert(\"Hello World\");  ",
+      "id": 7
+    },
+    {
+      "sual": "6) How do you create a function in JavaScript?",
+      "VariantA": "function myFunction()  ",
+      "VariantB": "function:myFunction()",
+      "VariantC": "function = myFunction()",
+      "VariantD": "function! myFunction()  ",
+      "VariantE": "function-myFunction()  ",
+      "cavab": "function myFunction()  ",
+      "id": 8
+    },
+    {
+      "sual": "7) How do you call a function named \"myFunction\"?",
+      "VariantA": "myFunction()  ",
+      "VariantB": "call function myFunction()",
+      "VariantC": "call myFunction()",
+      "VariantD": "ring myFunction()",
+      "VariantE": "calling myFunction()",
+      "cavab": "myFunction()  ",
+      "id": 9
+    },
+    {
+      "sual": "8) How to write an IF statement in JavaScript?",
+      "VariantA": "if i = 5 then",
+      "VariantB": "if i = 5",
+      "VariantC": "if (i == 5)  ",
+      "VariantD": "if i == 5 then",
+      "VariantE": "if i ==! 5 ",
+      "cavab": "if (i == 5)  ",
+      "id": 10
+    },
+    {
+      "sual": "9) How to write an IF statement for executing some code if \"i\" is NOT equal to 5?",
+      "VariantA": "if i =! 5 then",
+      "VariantB": "if (i <> 5)",
+      "VariantC": "if i <> 5",
+      "VariantD": "if i << 5",
+      "VariantE": "if (i != 5)  ",
+      "cavab": "if (i != 5)  ",
+      "id": 11
+    },
+    {
+      "sual": "10) How does a WHILE loop start?",
+      "VariantA": "while (i <= 10)  ",
+      "VariantB": "while i = 1 to 10",
+      "VariantC": "while (i <= 1)  ",
+      "VariantD": "while (i <= 10; i++)",
+      "VariantE": "while (i <= 10; i+)",
+      "cavab": "while (i <= 10)  ",
+      "id": 12
+    },
+    {
+      "sual": "11) How does a FOR loop start?",
+      "VariantA": "for (i = 0; i <= 5; i++)  ",
+      "VariantB": "for (i <= 5; i++)",
+      "VariantC": "for (i = 0; i <= 5)",
+      "VariantD": "for i = 1 to 5",
+      "VariantE": "for i = 1 to ",
+      "cavab": "for (i = 0; i <= 5; i++)  ",
+      "id": 13
+    },
+    {
+      "sual": "12) How can you add a comment in a JavaScript?",
+      "VariantA": "'This is a comment",
+      "VariantB": "'This is a comment\"",
+      "VariantC": "!--This is a comment--",
+      "VariantD": "--This is a comment--",
+      "VariantE": "//This is a comment  ",
+      "cavab": "//This is a comment  ",
+      "id": 14
+    },
+    {
+      "sual": "13) How to insert a comment that has more than one line?",
+      "VariantA": "//This comment has more than one line//",
+      "VariantB": "/*This comment has more than one line*/  ",
+      "VariantC": "/This comment has more than one line/",
+      "VariantD": "//This comment has more than one line//",
+      "VariantE": "!--This comment has more than one line--",
+      "cavab": "/*This comment has more than one line*/  ",
+      "id": 15
+    },
+    {
+      "sual": "14) What is the correct way to write a JavaScript array?",
+      "VariantA": "var colors = [\"red\", \"green\", \"blue\"]  ",
+      "VariantB": "var colors = (\"red\", \"green\", \"blue\")",
+      "VariantC": "var colors = {\"red\", \"green\", \"blue\"} ",
+      "VariantD": "var colors = 1 = (\"red\"), 2 = (\"green\"), 3 = (\"blue\")",
+      "VariantE": "var colors = \"red\", \"green\", \"blue\"",
+      "cavab": "var colors = [\"red\", \"green\", \"blue\"]  ",
+      "id": 16
+    },
+    {
+      "sual": "15) How do you round the number 7.25, to the nearest integer?",
+      "VariantA": "round(7.25)",
+      "VariantB": "Math.rnd(7.25)",
+      "VariantC": "rnd(7.25)",
+      "VariantD": "Math.round(7.25)  ",
+      "VariantE": "M.rnd(7.25)",
+      "cavab": "Math.round(7.25)  ",
+      "id": 17
+    }
+ 
+  ]
+}

@@ -1,0 +1,22 @@
+//section five start
+
+section.five{
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(226, 180, 180);
+        color: white;
+    }
+    
+}
+
+//section five end
+
+
+//container css
+.container{
+    max-width: 1440px;
+    width: 100%;
+    margin: auto;
+}

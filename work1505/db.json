@@ -1,0 +1,52 @@
+{
+  "suallar": [
+    {
+      "id": 1,
+      "sual": "1)Azərbaycan dilində neçə sait var?",
+      "VariantA": 2,
+      "VariantB": 5,
+      "VariantC": 10,
+      "VariantD": 9,
+      "VariantE": 3,
+      "cavab": "D"
+    },
+    {
+      "id": 2,
+      "sual": "2)Morfologiya nədir?",
+      "VariantA": "Morfologiya nitq hissələri ilə bağlı olur",
+      "VariantB": "Morfologiya heç bir şeylə bağlı deyil",
+      "VariantC": "Morfologiya əlifbayla bağlıdır",
+      "VariantD": "Morfologiya cümlə üzvüdür",
+      "VariantE": "Morfologiya ədatla bağlıdır",
+      "cavab": "A"
+    },
+    {
+      "text": "test comment",
+      "article_id": 3,
+      "id": 3
+    },
+    {
+      "text": "test comment",
+      "article_id": 3,
+      "id": 4
+    },
+    {
+      "name": "Khanim",
+      "age": 22,
+      "education": "LDU",
+      "id": 5
+    },
+    {
+      "name": "Khanim",
+      "age": 22,
+      "education": "LDU",
+      "id": 6
+    },
+    {
+      "name": "Khanim",
+      "age": 22,
+      "education": "LDU",
+      "id": 7
+    }
+  ]
+}

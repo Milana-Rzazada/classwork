@@ -1,0 +1,177 @@
+nav {
+    .navbar-container {
+        .nav-btn {
+            button {
+                border: 2px solid rgba(255, 255, 255, 0.295743);
+                border-radius: 6px;
+                width: 138px;
+                height: 40px;
+
+                background-color: black;
+                color: #ffffff;
+                font-weight: 900;
+                font-size: 14px;
+                line-height: 14px;
+
+            }
+        }
+    }
+}
+
+.workbtn {
+    .btn1 {
+        background: #EF6D58;
+        border-radius: 6px;
+        width: 154px;
+        height: 48px;
+        color: white;
+        font-size: 16px;
+    }
+
+    .btn2 {
+        font-size: 16px;
+        border: none;
+        background: black;
+        color: white;
+    }
+}
+
+.experience {
+    .container {
+        .experiencetext {
+            .btn2 {
+                button {
+                    background: #FFFFFF;
+                    box-shadow: 0px 3px 9px rgba(57, 20, 0, 0.08);
+                    border-radius: 6px;
+                    width: 138px;
+                    height: 48px;
+                }
+            }
+        }
+    }
+}
+
+section.work {
+    .container {
+        .wework {
+            button {
+                border: none;
+                font-weight: 400;
+                font-size: 16px;
+                color: #391400;
+                background-color: #FDF0E9;
+                width: 100px;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+section.features2 {
+    .container {
+        .features2 {
+            button {
+                border: none;
+                font-weight: 400;
+                font-size: 16px;
+                color: #391400;
+                background-color: #FDF0E9;
+                width: 100px;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+section.service{
+    .container{
+        .service{
+            .content{
+                button{
+                    background: #FFFFFF;
+                    box-shadow: 0px 3px 9px rgba(57, 20, 0, 0.08);
+                    border-radius: 6px;
+                    width: 138px;
+                    height: 48px;
+                    color: black;
+                    font-weight: 900;
+font-size: 14px;
+border-color: white;
+                }
+            }
+        }
+    }
+}
+
+section.service2{
+    .container{
+        .service2{
+            table{
+                td{
+                    button{
+                        border: none;
+                font-weight: 400;
+                font-size: 16px;
+                color: #391400;
+                background-color: #FDF0E9;
+                width: 100px;
+                cursor: pointer;
+                margin-left: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+section.portfolio{
+    .container{
+        .portfolioimig{
+            button{
+                background: #FFFFFF;
+border-radius: 19px;
+width: 100px;
+height: 38px;
+color: #391400;
+font-weight: 400;
+font-size: 16px;
+border-color: white;
+            }
+        }
+        .portfolio{
+            .btn{button{
+                margin-top: 20px;
+                border: 1px solid rgba(255, 255, 255, 0.295743);
+                background-color:#391400;
+border-radius: 6px;
+width: 170px;
+height: 48px;
+font-weight: 900;
+font-size: 14px;
+color: white;
+margin-bottom: 200px;
+            }}
+            
+        }
+    }
+}
+
+section.started{
+    .container{
+        .start{
+            button{
+                background: #EF6D58;
+border-radius: 6px;
+width: 154px;
+height: 48px;
+font-weight: 900;
+font-size: 14px;
+color: #FFFFFF;
+border: none;
+
+            }
+        }
+    }
+}

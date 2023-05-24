@@ -1,0 +1,13 @@
+@import "./base/reset";
+@import "./components/buttons";
+@import "./layout/navbar";
+@import "./layout/footer";
+@import "./pages/index";
+@import "./pages/about";
+
+//container css
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: auto;
+}

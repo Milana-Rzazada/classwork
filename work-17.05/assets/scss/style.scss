@@ -1,0 +1,33 @@
+@import "./base/reset";
+
+// .box{
+//     border: 1px solid black;
+//     width: 200px;
+//     height: 150px;
+//     border-radius: 8px;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     flex-direction: column;
+// }
+
+.box{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.card{
+   
+    border: 1px solid rgb(96, 31, 201);
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: lightblue;
+    color: white;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    padding: 10px;
+    
+}

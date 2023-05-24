@@ -1,0 +1,99 @@
+* {
+  padding: 0 50px;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+section.startbootstrapsection .container button {
+  background-color: white;
+  height: 48px;
+  border: none;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .container ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav .container ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+
+footer .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section.one .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: brown;
+  color: white;
+}
+
+section.startbootstrapsection .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 500px;
+  gap: 50px;
+  background-color: red;
+  color: white;
+}
+section.startbootstrapsection .container h1 {
+  font-size: 56px;
+}
+section.startbootstrapsection .container p {
+  font-size: 24px;
+  text-align: center;
+}
+
+section.three .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: yellow;
+  color: white;
+}
+
+section.five .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(226, 180, 180);
+  color: white;
+}
+
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin: auto;
+}
+
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin: auto;
+}

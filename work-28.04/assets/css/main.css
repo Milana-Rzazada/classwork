@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+section .formcst {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+section .formcst .todoapp {
+  margin-bottom: 20px;
+}
+section .formcst .addeds input {
+  width: 300px;
+  height: 50px;
+  border-radius: 10px;
+}
+section .formcst .addeds button {
+  position: relative;
+  padding: 15px 20px;
+  outline: none;
+  font-size: 1.25rem;
+  color: #fff;
+  border-radius: 5px;
+  background: #8f2c24;
+  border: none;
+  font-weight: 500;
+}
+
+.task {
+  width: 300px;
+  height: 50px;
+  border-radius: 10px;
+  border: 1px solid black;
+  margin-top: 20px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.content {
+  font-size: 15px;
+  color: #fff;
+  border-radius: 5px;
+  background: red;
+  font-weight: 500;
+  margin: 10px;
+  border: none;
+  height: 25px;
+}

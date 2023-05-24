@@ -1,0 +1,80 @@
+#carousel-site{
+    #carouselExampleCaptions{
+        .carousel-inner{
+            height: 100vh;
+            .carousel-item{
+                
+                .carousel-caption{
+                    button{
+                        background-color: #bc5148;
+                        color: white;
+                        width: 160px;
+                        height: 48px;
+                        border: none;
+                        border-radius: 6px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+#familyfoto{
+    .container1{
+        .familyimg{
+            button{
+                
+                color: #bc5148;
+                width: 160px;
+                height: 48px;
+                border: 2px solid #bc5148;
+                border-radius: 6px;
+            }
+            button:hover{
+                background-color: #bc5148;
+                color: #fff;
+            }
+        }
+    }
+}
+
+#waitingchildren{
+    .container1{
+        .find{
+            background-color: #bc5148;
+                        color: white;
+                        width: 250px;
+                        height: 48px;
+                        border: none;
+                        border-radius: 6px;
+        }
+    }
+}
+
+#getnews_updates{
+    .container1{
+        .inputs{
+            button{
+                background-color: #bc5148;
+                        color: white;
+                        width: 250px;
+                        height: 48px;
+                        border: none;
+                        border-radius: 6px;
+            }
+        }
+    }
+}
+
+footer{
+    .container1{
+        .about{
+            button{
+                border: none;
+                background-color: #bc5148;
+                color: yellow;
+                font-size: 16px;
+            }
+        }
+    }
+}

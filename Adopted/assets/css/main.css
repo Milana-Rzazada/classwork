@@ -1,0 +1,439 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", Arial, sans-serif;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+li {
+  list-style: none;
+}
+
+.container1 {
+  max-width: 1440px;
+  width: 100%;
+  margin: auto;
+}
+
+header .top-bar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #bc5148;
+  height: 40px;
+}
+header .top-bar .container1 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .top-bar .container1 .loginlink ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+header .top-bar .container1 .loginlink ul li a {
+  color: black;
+  height: 40px;
+}
+header .top-bar .container1 .loginlink ul li:hover {
+  background-color: yellow;
+}
+header .top-bar .container1 .icon {
+  display: flex;
+  gap: 20px;
+}
+header nav .container1 {
+  width: 100%;
+}
+header nav .container1 #navbarNavDropdown {
+  justify-content: end !important;
+}
+
+#carousel-site #carouselExampleCaptions .carousel-inner {
+  height: 100vh;
+}
+#carousel-site #carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption button {
+  background-color: #bc5148;
+  color: white;
+  width: 160px;
+  height: 48px;
+  border: none;
+  border-radius: 6px;
+}
+
+#familyfoto .container1 .familyimg button {
+  color: #bc5148;
+  width: 160px;
+  height: 48px;
+  border: 2px solid #bc5148;
+  border-radius: 6px;
+}
+#familyfoto .container1 .familyimg button:hover {
+  background-color: #bc5148;
+  color: #fff;
+}
+
+#waitingchildren .container1 .find {
+  background-color: #bc5148;
+  color: white;
+  width: 250px;
+  height: 48px;
+  border: none;
+  border-radius: 6px;
+}
+
+#getnews_updates .container1 .inputs button {
+  background-color: #bc5148;
+  color: white;
+  width: 250px;
+  height: 48px;
+  border: none;
+  border-radius: 6px;
+}
+
+footer .container1 .about button {
+  border: none;
+  background-color: #bc5148;
+  color: yellow;
+  font-size: 16px;
+}
+
+#carousel-site #carouselExampleCaptions .carousel-inner {
+  height: 100vh;
+}
+#carousel-site #carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption {
+  right: 60%;
+  bottom: 50%;
+  text-align: justify;
+  width: 500px;
+}
+#carousel-site #carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption .girl {
+  color: black;
+}
+#carousel-site #carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption .girl h4 {
+  font-family: "Sacramento", cursive;
+}
+#carousel-site #carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption .girl h1 {
+  font-weight: bold;
+  font-size: 44px;
+}
+#carousel-site #carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption .boy h4 {
+  font-family: "Sacramento", cursive;
+}
+#carousel-site #carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption .boy h1 {
+  font-weight: bold;
+  font-size: 44px;
+}
+
+.container1 {
+  max-width: 1440px;
+  width: 100%;
+  margin: auto;
+}
+
+#familyfoto {
+  position: relative;
+  top: 50px;
+}
+#familyfoto .container1 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+#familyfoto .container1 .familyimg {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#familyfoto .container1 .familyimg img {
+  max-width: 600px;
+  width: 100%;
+}
+#familyfoto .container1 .familyimg p {
+  max-width: 600px;
+  width: 100%;
+}
+#familyfoto .container1 .selected {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 500px;
+  width: 100%;
+}
+#familyfoto .container1 .selected .select1 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 10px;
+  color: #391400;
+  border: 1px solid black;
+  max-width: 600px;
+  width: 100%;
+  padding: 20px;
+}
+#familyfoto .container1 .selected .select1 .textname {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+#familyfoto .container1 .selected .select1 .textcontent {
+  display: none;
+}
+#familyfoto .container1 .selected .select1 p {
+  font-size: 20px;
+}
+#familyfoto .container1 .selected .select1 i {
+  width: 30px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  color: black;
+}
+
+@media only screen and (max-width: 768px) {
+  #familyfoto .container1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  #familyfoto .container1 .selected {
+    position: relative;
+    top: 20px;
+  }
+  #familyfoto .container1 .selected .select1 p {
+    font-size: 16px;
+  }
+}
+.toggles {
+  display: block;
+  transition: 500ms !important;
+}
+
+.select11 {
+  background-color: white;
+  transition: 500ms;
+  color: #bc5148;
+}
+
+.none {
+  display: block;
+}
+
+.text {
+  transform: rotate(180deg);
+}
+
+#waitingchildren .container1 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  position: relative;
+  top: 150px;
+}
+#waitingchildren .container1 p {
+  max-width: 600px;
+  text-align: center;
+  color: rgb(160, 159, 159);
+  font-size: 20px;
+}
+#waitingchildren .container1 #carouselExampleControls {
+  width: 80%;
+}
+#waitingchildren .container1 #carouselExampleControls .card {
+  max-width: 25rem;
+  width: 100%;
+  height: 500px;
+}
+#waitingchildren .container1 #carouselExampleControls .card img {
+  max-width: 400px;
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+#waitingchildren .container1 #carouselExampleControls .card img:hover {
+  padding: 10px;
+}
+#waitingchildren .container1 #carouselExampleControls .card .card-body h5 {
+  display: flex;
+  gap: 15px;
+}
+#waitingchildren .container1 #carouselExampleControls .card:hover {
+  box-shadow: 5px 0px 5px 0px;
+  transition: 100ms;
+  padding: 5px;
+}
+#waitingchildren .container1 #carouselExampleControls .carousel-control-prev {
+  color: white;
+}
+#waitingchildren .container1 #carouselExampleControls .carousel-control-next {
+  color: white;
+}
+
+#images {
+  position: relative;
+  top: 350px;
+}
+#images .container1 {
+  width: 100%;
+}
+#images .container1 .imagessection {
+  display: flex;
+}
+#images .container1 .imagessection .image1 {
+  position: relative;
+}
+#images .container1 .imagessection .image1 img {
+  max-width: 450px;
+  width: 100%;
+  position: relative;
+}
+#images .container1 .imagessection .image1 .iconDiv {
+  padding-top: 100%;
+  transition: 1s;
+  background-color: black;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+#images .container1 .imagessection .image1 .iconDiv .iconBox {
+  color: white;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+#images .container1 .imagessection .image1 .iconDiv .iconBox span {
+  font-size: 14px;
+  color: rgb(197, 195, 195);
+}
+#images .container1 .imagessection .image1 .iconDiv .iconBox p {
+  font-size: 20px;
+  text-align: center;
+}
+#images .container1 .imagessection .image1 .iconDiv .iconBox i {
+  position: absolute;
+  bottom: 70px;
+  font-size: 30px;
+  color: white;
+}
+#images .container1 .imagessection .image1:hover .iconDiv {
+  padding-top: 150px;
+  opacity: 0.5;
+}
+
+@media only screen and (max-width: 768px) {
+  #images .container1 {
+    width: 100%;
+  }
+  #images .container1 .imagessection {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+#getnews_updates .container1 {
+  width: 100%;
+  position: relative;
+  top: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#getnews_updates .container1 .inputs {
+  display: flex;
+  gap: 50px;
+}
+#getnews_updates .container1 .inputs input {
+  max-width: 400px;
+  width: 100%;
+  height: 48px;
+  border: 2px solid rgb(173, 171, 171);
+  border-radius: 6px;
+}
+#getnews_updates .container1 .inputs input::placeholder {
+  padding: 10px;
+  color: rgb(173, 171, 171);
+}
+
+@media only screen and (max-width: 768px) {
+  #getnews_updates .container1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  #getnews_updates .container1 .inputs {
+    display: flex;
+    flex-direction: column;
+  }
+}
+footer {
+  position: relative;
+  top: 600px;
+  background-color: #bc5148;
+}
+footer .container1 {
+  display: flex;
+  gap: 100px;
+}
+footer .container1 h3 {
+  color: white;
+  font-size: 20px;
+}
+footer .container1 .about {
+  width: 200px;
+}
+footer .container1 .about p {
+  color: rgb(201, 197, 197);
+}
+footer .container1 .contact p {
+  color: white;
+}
+footer .container1 .contact p span {
+  color: rgb(177, 176, 176);
+}
+footer .container1 .links ul li a {
+  color: yellow;
+}
+footer .container1 .links ul li a:hover {
+  text-decoration: underline !important;
+  color: white;
+  transition: 1s;
+}
+footer .container1 .social .icons {
+  display: flex;
+  gap: 20px;
+  max-width: 50px;
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+footer .container1 .social .icons i {
+  color: yellow;
+  border: 1px solid rgb(192, 191, 191);
+  max-width: 100px;
+  width: 100%;
+  aspect-ratio: 1/1;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  footer .container1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+}

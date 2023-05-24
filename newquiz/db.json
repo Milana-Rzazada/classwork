@@ -1,0 +1,23 @@
+{
+    "questions": [
+      {
+        "id": 1,
+        "question": "Python proqramlaşdırma dili kim tərəfindən yaradılıb?",
+        "options": ["Guido van Rossum", "Dennis Ritchie", "Bjarne Stroustrup", "James Gosling"],
+        "answer": "Guido van Rossum"
+      },
+      {
+        "id": 2,
+        "question": "JavaScript dili hansı məqsədlə istifadə olunur?",
+        "options": ["Web səhifələri interaktiv etmək üçün", "Verilənlər bazasını idarə etmək üçün", "Mobil əməliyyat sistemləri yaratmaq üçün", "Oyunların yaradılması üçün"],
+        "answer": "Web səhifələri interaktiv etmək üçün"
+      },
+      {
+        "id": 3,
+        "question": "CSS, HTML-dən fərqli olaraq nə üçün istifadə olunur?",
+        "options": ["Mətnin stili və formatı", "Verilənlər bazası ilə əlaqə", "Proqramın ardıcıl işlənməsi", "Müxtəlif əməliyyatlar üçün funksiya yaratmaq"],
+        "answer": "Mətnin stili və formatı"
+      }
+    ]
+  }
+  
