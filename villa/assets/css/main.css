@@ -1,0 +1,237 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.container1 {
+  max-width: 1270px;
+  width: 100%;
+  margin: auto;
+}
+
+#villa_resort {
+  background: rgba(0, 0, 0, 0.45);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+#villa_resort img {
+  opacity: 0.5;
+  vertical-align: middle;
+  object-fit: cover;
+  max-width: 100%;
+  max-height: 100%;
+}
+#villa_resort .welcome_villa_resort {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#villa_resort .welcome_villa_resort h1 {
+  font-size: 56px;
+}
+#villa_resort .welcome_villa_resort h3 {
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  #villa_resort .welcome_villa_resort {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #villa_resort .welcome_villa_resort h1 {
+    font-size: 30px;
+  }
+  #villa_resort .welcome_villa_resort h3 {
+    font-size: 16px;
+  }
+}
+#visit {
+  position: relative;
+  top: 30px;
+}
+#visit .container1 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#visit .container1 h1 {
+  font-size: 30px;
+  color: rgb(211, 208, 208);
+  text-align: start;
+}
+#visit .images_visit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+#visit .images_visit .img_visit {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#visit .images_visit .img_visit img {
+  max-width: 350px;
+  width: 100%;
+  box-shadow: 3px 0px 3px 0px;
+}
+#visit .images_visit .img_visit p {
+  font-size: 16px;
+}
+#visit .images_visit .img_visit i {
+  color: rgb(253, 44, 79);
+}
+
+@media only screen and (max-width: 768px) {
+  #visit .container1 {
+    width: 100%;
+  }
+  #visit .container1 .images_visit {
+    display: flex;
+    flex-direction: column;
+  }
+}
+#carousel {
+  position: relative;
+  top: 80px;
+  left: 23%;
+  max-width: 800px !important;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#carousel .container1 .carousel_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+#carousel .container1 .carousel_text h1 {
+  max-width: 600px;
+  font-size: 56px;
+  width: 100%;
+  text-align: center;
+}
+#carousel .container1 .carousel_text p {
+  max-width: 700px;
+  width: 100%;
+  text-align: center;
+  color: grey;
+  font-size: 20px;
+}
+
+#blogpost .container1 {
+  width: 100%;
+}
+
+nav {
+  padding: 20px;
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  position: fixed;
+}
+nav .villanav {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  align-items: center;
+}
+nav .tabs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+}
+nav .tabs ul li a {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+nav .tabs .contact p {
+  color: rgb(194, 189, 189);
+}
+nav ul {
+  height: 0px;
+  transition: 500ms;
+  font-size: 20px;
+  overflow: hidden;
+}
+nav .contact {
+  height: 0px;
+  transition: 500ms;
+  font-size: 20px;
+  overflow: hidden;
+}
+nav .connect {
+  height: 0px;
+  transition: 500ms;
+  font-size: 20px;
+  overflow: hidden;
+}
+
+.list {
+  flex-direction: column;
+  overflow: hidden;
+  height: auto;
+}
+
+#villa_resort .welcome_villa_resort .btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+#villa_resort .welcome_villa_resort .btn .explore {
+  border: none;
+  height: 45px;
+  max-width: 250px;
+  width: 100%;
+  border-radius: 50px;
+  font-size: 16px;
+  padding: 10px;
+  background-color: rgb(231, 32, 32);
+}
+#villa_resort .welcome_villa_resort .btn .download {
+  border: none;
+  max-width: 150px;
+  width: 100%;
+  font-size: 16px;
+  height: 48px;
+  border-radius: 50px;
+  background: none;
+  border: 1px solid white;
+  color: white;
+}
+
+@media only screen and (max-width: 768px) {
+  #villa_resort .welcome_villa_resort .btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+}/*# sourceMappingURL=main.css.map */

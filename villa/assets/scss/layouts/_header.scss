@@ -1,0 +1,78 @@
+
+nav {
+    padding: 20px;
+ position: absolute;
+   z-index: 1;
+   width: 100%;
+   position: fixed;
+   
+
+ 
+
+    .villanav {
+        display: flex;
+        justify-content: space-between;
+      color: white;
+        align-items: center;
+
+    }
+    .tabs{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: white;
+       
+        ul{
+            li{
+                a{
+                    color: black;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+                }
+            }
+            
+        }
+        .contact{
+       
+            p{
+                color: rgb(194, 189, 189);
+            }
+        }
+
+    }
+
+    ul {
+        height: 0px;
+        transition: 500ms;
+        font-size: 20px;
+        overflow: hidden;
+    }
+    .contact{
+        height: 0px;
+        transition: 500ms;
+        font-size: 20px;
+        overflow: hidden;
+     
+    }
+    .connect{
+        height: 0px;
+        transition: 500ms;
+        font-size: 20px;
+        overflow: hidden;
+       
+    }
+
+}
+
+
+.list {
+    flex-direction: column;
+    overflow: hidden;
+    height: auto;
+   
+}
+
+
+
+

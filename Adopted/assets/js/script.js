@@ -1,12 +1,12 @@
 
 const select1 = document.querySelectorAll(".select1");
 const textname = document.querySelectorAll(".textname");
-const textcontect=document.querySelectorAll(".textcontent")
+const textcontent=document.querySelectorAll(".textcontent")
 //console.log(textcontect)
 
 textname.forEach(el => {
     el.addEventListener("click", function (e) {
-        textcontect.forEach(elem=>{
+        textcontent.forEach(elem=>{
             console.log(elem)
             elem.style.display="none"
         })

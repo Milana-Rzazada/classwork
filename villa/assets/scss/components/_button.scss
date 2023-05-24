@@ -1,0 +1,46 @@
+#villa_resort{
+    .welcome_villa_resort{
+        .btn{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 20px;
+            .explore{
+                border: none;
+                height: 45px;
+max-width: 250px;
+width: 100%;
+border-radius: 50px;
+font-size: 16px;
+padding: 10px;
+background-color: rgb(231, 32, 32);
+            }
+            .download{
+                border: none;
+                max-width: 150px;
+                width: 100%;
+                font-size: 16px;
+                height: 48px;
+                border-radius: 50px;
+                background: none;
+                border: 1px solid white;
+                color: white;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #villa_resort{
+        .welcome_villa_resort{
+            .btn{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-direction: column;
+                gap: 20px;
+             
+            }
+        }
+    }
+}
