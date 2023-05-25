@@ -1,0 +1,324 @@
+.container1{
+    max-width: 1170px;
+    width: 100%;
+    margin: auto;
+}
+
+header{
+   
+nav{
+   padding: 0 !important;
+.container-fluid{
+    position: absolute;
+   z-index: 1;
+    top: 30px;
+    padding: 20px !important;
+    .logo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        p{
+            font-size: 25px;
+            color: white;
+            font-weight: bold;
+        }
+    }
+  .collapse{
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    .navbar-nav{
+        a{
+            color: white !important;
+            
+            gap: 50px;
+            font-weight: bold;
+        }
+       
+    }
+    .phone{
+        background-color: orange;
+        height: 40px;
+        padding: 10px;
+        color: white;
+       
+    }
+  }
+
+}
+   
+   
+}
+       
+    
+}
+
+@media only screen and (max-width: 768px) {
+    header{
+        nav{
+            .container-fluid{
+                
+                .collapse{
+   
+                    .phone{
+                        display: none;
+                    }
+                
+            }
+            }
+
+        }
+    }
+   
+}
+#find{
+ 
+        .find_your_home{
+            position: relative;
+          background-image: url(../images/home_slider_bcg.jpg.webp);
+          background-size: cover;
+          height: 100vh;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          h1{
+            font-size: 56px;
+            font-weight: bold;
+            color: white;
+          }
+            
+        }
+    }
+
+
+  
+@media only screen and (max-width: 768px) {
+    #find{
+        h1{
+            font-size: 35px;
+        }
+    }
+}
+
+#FEATURED_PROPERTIES{
+    .container1{
+        width: 100%;
+        .featured{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            .featured_text{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+
+                hr{
+                    color: brown !important;
+                    max-width: 30px;
+                    width: 100%;
+                    transform: rotate(90deg);
+                    opacity: 1 !important;
+                 
+                }
+                p{
+                    color: rgb(197, 195, 195);
+                    font-weight: bold;
+                }
+            }
+            .cards{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: row;
+                gap: 20px;
+                background-color: rgb(234, 245, 248);
+                .card_price{
+                    .card_featured{
+                        display: flex;
+                     gap: 50px;
+                        flex-direction: column;
+                        gap: 20px;
+                        h3{
+                            text-align: center;
+                            font-size: 20px;
+                        }
+                        p{
+                            font-size: 15px;
+                            text-align: center;
+                            padding: 15px;
+                        }
+                        img{
+                            position: relative;
+                            max-width: 350px;
+                            width: 100%;
+                            aspect-ratio: 1/1;
+                        }
+                        .img_featured{
+                            position: absolute;
+                            z-index: 1;
+                            top: 130%;
+                           
+                            background-color: orange;
+                            height: 30px;
+                            padding: 5px;
+                            color: white;
+                        }                    
+                        .rooms{
+                         
+                            display: grid;
+                            grid-template-columns: auto auto auto;
+                            gap: 30px;
+                            padding: 20px;
+                            .room{
+                                display: flex;
+                                flex-direction: column;
+                                gap: 15px;
+                                img{
+                                    max-width: 40px;
+                                    width: 100%;
+                                    aspect-ratio: 1/1;
+                                }
+                                .room_img{
+                                    display: flex;
+                                    gap: 20px;
+                                }
+                            }
+                        }
+                    
+                    }
+                    .forsale{
+                        position: relative;
+                        top: 20px;
+                        background-color: rgb(87, 3, 87);
+                        display: flex;
+                        color: white;
+                        align-items: center;
+                        gap: 20px;
+                        padding: 20px;
+                        height: 80px;
+                        span{
+                            font-size: 20px;
+                        }
+                        p{
+                            font-size: 30px;
+                        }
+
+                    }
+                }
+               
+
+                .card_featured:hover{
+                    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                    transition: 500ms;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #FEATURED_PROPERTIES{
+        .container1{
+            .featured{
+               .cards{
+                display: flex;
+                flex-direction: column;
+               } 
+            }
+        }
+    }
+}
+
+#feedback_carousel{
+    position: relative;
+    top: 50px;
+    background-image: url(../images/testimonials_background.jpg.webp);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 500px;
+    .feedback_header_text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: white;
+
+        hr{
+            color: brown !important;
+            max-width: 30px;
+            width: 100%;
+            transform: rotate(90deg);
+            opacity: 1 !important;
+         
+        }
+        p{
+            color: rgb(197, 195, 195);
+            font-weight: bold;
+        }
+    }
+    #carouselExampleIndicators{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .carousel-inner{
+            text-align: center;
+            .carousel-item{
+                
+                p{
+                    color: white;
+                    max-width: 700px;
+                    width: 100%;
+                }
+                .name{
+                   
+                    color: orange;
+
+                }
+                img{
+                    border-radius: 50%;
+                }
+                span{
+                    color: white;
+                }
+            }
+        }
+    }
+}
+
+
+#city_card{
+    position: relative;
+    top: 80px;
+    .container1{
+width: 100%;
+.city_card_text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    hr{
+        color: brown !important;
+        max-width: 30px;
+        width: 100%;
+        transform: rotate(90deg);
+        opacity: 1 !important;
+     
+    }
+    p{
+        color: rgb(197, 195, 195);
+        font-weight: bold;
+    }
+}
+.card{
+    display: flex;
+}
+    }
+}

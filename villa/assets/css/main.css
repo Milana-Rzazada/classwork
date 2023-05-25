@@ -141,8 +141,23 @@ li {
   font-size: 20px;
 }
 
+#blogpost {
+  position: relative;
+  top: 100px;
+}
 #blogpost .container1 {
   width: 100%;
+}
+#blogpost .container1 .blog {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+#blogpost .container1 .blog .image {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 nav {
@@ -203,11 +218,13 @@ nav .connect {
   justify-content: space-between;
   align-items: center;
   gap: 20px;
+  max-width: 400px;
+  width: 100%;
 }
 #villa_resort .welcome_villa_resort .btn .explore {
   border: none;
   height: 45px;
-  max-width: 250px;
+  max-width: 300px;
   width: 100%;
   border-radius: 50px;
   font-size: 16px;

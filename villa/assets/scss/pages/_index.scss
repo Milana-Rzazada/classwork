@@ -163,7 +163,21 @@
 
 
 #blogpost {
+    position: relative;
+    top: 100px;
     .container1 {
         width: 100%;
+        .blog{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: column;
+            .image{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+        }
     }
+
 }

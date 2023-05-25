@@ -1,0 +1,274 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.container1 {
+  max-width: 1170px;
+  width: 100%;
+  margin: auto;
+}
+
+header nav {
+  padding: 0 !important;
+}
+header nav .container-fluid {
+  position: absolute;
+  z-index: 1;
+  top: 30px;
+  padding: 20px !important;
+}
+header nav .container-fluid .logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header nav .container-fluid .logo p {
+  font-size: 25px;
+  color: white;
+  font-weight: bold;
+}
+header nav .container-fluid .collapse {
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+header nav .container-fluid .collapse .navbar-nav a {
+  color: white !important;
+  gap: 50px;
+  font-weight: bold;
+}
+header nav .container-fluid .collapse .phone {
+  background-color: orange;
+  height: 40px;
+  padding: 10px;
+  color: white;
+}
+
+@media only screen and (max-width: 768px) {
+  header nav .container-fluid .collapse .phone {
+    display: none;
+  }
+}
+#find .find_your_home {
+  position: relative;
+  background-image: url(../images/home_slider_bcg.jpg.webp);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#find .find_your_home h1 {
+  font-size: 56px;
+  font-weight: bold;
+  color: white;
+}
+
+@media only screen and (max-width: 768px) {
+  #find h1 {
+    font-size: 35px;
+  }
+}
+#FEATURED_PROPERTIES .container1 {
+  width: 100%;
+}
+#FEATURED_PROPERTIES .container1 .featured {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#FEATURED_PROPERTIES .container1 .featured .featured_text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#FEATURED_PROPERTIES .container1 .featured .featured_text hr {
+  color: brown !important;
+  max-width: 30px;
+  width: 100%;
+  transform: rotate(90deg);
+  opacity: 1 !important;
+}
+#FEATURED_PROPERTIES .container1 .featured .featured_text p {
+  color: rgb(197, 195, 195);
+  font-weight: bold;
+}
+#FEATURED_PROPERTIES .container1 .featured .cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 20px;
+  background-color: rgb(234, 245, 248);
+}
+#FEATURED_PROPERTIES .container1 .featured .cards .card_price .card_featured {
+  display: flex;
+  gap: 50px;
+  flex-direction: column;
+  gap: 20px;
+}
+#FEATURED_PROPERTIES .container1 .featured .cards .card_price .card_featured h3 {
+  text-align: center;
+  font-size: 20px;
+}
+#FEATURED_PROPERTIES .container1 .featured .cards .card_price .card_featured p {
+  font-size: 15px;
+  text-align: center;
+  padding: 15px;
+}
+#FEATURED_PROPERTIES .container1 .featured .cards .card_price .card_featured img {
+  position: relative;
+  max-width: 350px;
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+#FEATURED_PROPERTIES .container1 .featured .cards .card_price .card_featured .img_featured {
+  position: absolute;
+  z-index: 1;
+  top: 130%;
+  background-color: orange;
+  height: 30px;
+  padding: 5px;
+  color: white;
+}
+#FEATURED_PROPERTIES .container1 .featured .cards .card_price .card_featured .rooms {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 30px;
+  padding: 20px;
+}
+#FEATURED_PROPERTIES .container1 .featured .cards .card_price .card_featured .rooms .room {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+#FEATURED_PROPERTIES .container1 .featured .cards .card_price .card_featured .rooms .room img {
+  max-width: 40px;
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+#FEATURED_PROPERTIES .container1 .featured .cards .card_price .card_featured .rooms .room .room_img {
+  display: flex;
+  gap: 20px;
+}
+#FEATURED_PROPERTIES .container1 .featured .cards .card_price .forsale {
+  position: relative;
+  top: 20px;
+  background-color: rgb(87, 3, 87);
+  display: flex;
+  color: white;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  height: 80px;
+}
+#FEATURED_PROPERTIES .container1 .featured .cards .card_price .forsale span {
+  font-size: 20px;
+}
+#FEATURED_PROPERTIES .container1 .featured .cards .card_price .forsale p {
+  font-size: 30px;
+}
+#FEATURED_PROPERTIES .container1 .featured .cards .card_featured:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition: 500ms;
+}
+
+@media only screen and (max-width: 768px) {
+  #FEATURED_PROPERTIES .container1 .featured .cards {
+    display: flex;
+    flex-direction: column;
+  }
+}
+#feedback_carousel {
+  position: relative;
+  top: 50px;
+  background-image: url(../images/testimonials_background.jpg.webp);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 500px;
+}
+#feedback_carousel .feedback_header_text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+#feedback_carousel .feedback_header_text hr {
+  color: brown !important;
+  max-width: 30px;
+  width: 100%;
+  transform: rotate(90deg);
+  opacity: 1 !important;
+}
+#feedback_carousel .feedback_header_text p {
+  color: rgb(197, 195, 195);
+  font-weight: bold;
+}
+#feedback_carousel #carouselExampleIndicators {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#feedback_carousel #carouselExampleIndicators .carousel-inner {
+  text-align: center;
+}
+#feedback_carousel #carouselExampleIndicators .carousel-inner .carousel-item p {
+  color: white;
+  max-width: 700px;
+  width: 100%;
+}
+#feedback_carousel #carouselExampleIndicators .carousel-inner .carousel-item .name {
+  color: orange;
+}
+#feedback_carousel #carouselExampleIndicators .carousel-inner .carousel-item img {
+  border-radius: 50%;
+}
+#feedback_carousel #carouselExampleIndicators .carousel-inner .carousel-item span {
+  color: white;
+}
+
+#city_card {
+  position: relative;
+  top: 80px;
+}
+#city_card .container1 {
+  width: 100%;
+}
+#city_card .container1 .city_card_text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#city_card .container1 .city_card_text hr {
+  color: brown !important;
+  max-width: 30px;
+  width: 100%;
+  transform: rotate(90deg);
+  opacity: 1 !important;
+}
+#city_card .container1 .city_card_text p {
+  color: rgb(197, 195, 195);
+  font-weight: bold;
+}
+#city_card .container1 .card {
+  display: flex;
+}/*# sourceMappingURL=main.css.map */
